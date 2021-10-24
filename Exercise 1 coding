@@ -1,0 +1,48 @@
+package numericalData;
+
+public class Exercise1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int number1 = 11;
+		int number2 = 22;
+		int number3 = 33;
+		int number4 = 44;
+		int number5 = 55;
+		int number6 = 66;
+		float number7 = 77;
+		float number8 = 100;
+		double number9 = 99;
+		double number10 =110;
+		int sum;
+		int sum2;  //number6-number1
+		int sum3; //multiply all numbers
+		float sum4;//divide any two numbers
+		double sum5;
+		int average;
+		double sum6;
+		
+		
+		sum = number1 + number2 + number3 + number4 + number5 + number6;
+		System.out.println("The sum of 6 integer are ");
+		System.out.println(sum);
+		sum2 = number6 - number1;
+		System.out.println("The sum2 is");
+		System.out.println(sum2);
+		sum3 = number1 * number2 * number3 * number4 * number5 * number6;
+		System.out.println("The sum is" + sum3);
+		sum4 = number8/number7;
+		System.out.println("The sum4 is");
+		System.out.printf("%.2f", sum4);
+		System.out.println();
+		sum5 = number10/number9;
+		System.out.println("The sum is");
+		System.out.printf("%.2f", sum5);
+		//average = (number1 + number2 + number3 + number4 + number5 + number6)/6;
+		average = sum/6;
+		System.out.println("The average of 6 integer are" + average);
+		sum6 = sum4 + sum5;
+		System.out.println("The sum6 is");
+		System.out.printf("%.2f", sum6);
+	}
+}
